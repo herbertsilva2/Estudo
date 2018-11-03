@@ -1,0 +1,13 @@
+.jumbotron{
+    height: 100%;
+}
+
+.container{
+    margin-right: 20%;
+    margin-left: 20%;
+    width: 60%;
+}
+
+.label1{
+    font-size: 14pt;
+}

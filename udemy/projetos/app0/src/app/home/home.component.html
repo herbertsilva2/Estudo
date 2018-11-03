@@ -1,0 +1,45 @@
+<div class="jumbotron jumbotron-fluid">    
+  <div class="jumbotron">
+    <div class="container">  
+      <h1 class="display-4">Testes de aprendizado!</h1>
+      <div class="form-group">
+        <div class="rol">
+          <label class="label1">Digite suas informações</label>    
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="nome">Nome</span>
+          </div>
+          <input type="text"
+          class="form-control"
+          placeholder="Digite aqui o seu primeiro nome"
+          (input)="pegaTextoNome($event)"
+          [value]="nome">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="sobrenome">Sobrenome</span>
+            </div>
+            <input type="text"
+              class="form-control"
+              placeholder="Digite aqui o seu sobrenome"
+              (input)="pegaTextoSobrenome($event)"
+              [value]="sobrenome">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="email">E-mail</span>
+            </div>
+            <input type="email"
+            class="form-control"
+            placeholder="fulanodetal@emailtal.com"
+            (input)="pegaTextoEmail($event)"
+            [value]="email">
+        </div>  
+        <div class="d-flex justify-content-end">
+          <button class="btn btn-primary btn-sm" (click)="capturarFormulario()">Enviar</button>
+        </div>
+      </div>        
+    </div>
+  </div>
+</div>
