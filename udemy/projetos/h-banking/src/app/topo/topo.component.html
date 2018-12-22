@@ -1,0 +1,11 @@
+<nav class="navbar navbar-faded bg-faded">
+  <div class="d-flex justify-content-start">
+    <a class="navbar-brand" href="#">h-bancking</a>
+    <a class="navbar-brand" href="#">Serviços</a>
+    <a class="navbar-brand" href="#">Investimentos</a>
+  </div>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="login" placeholder="Digite seu CPF" (input)="atualizaResposta($event)" [value]="resposta">
+    <button type="button" class="btn btn-success" (click)="recebeCPF()">Login</button>
+  </form>
+</nav>
