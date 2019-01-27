@@ -1,0 +1,49 @@
+{ 
+	"contatos": [
+		{
+			"nome": "Herbert Lima",
+            "telefone": "61981948968",
+            "data": "21/12/2018 11:46",
+            "email": "herbert.melodelima@gmail.com",
+			"operadora": {
+                "nome": "Claro",                
+                "codigo": 21,
+                "categoria": "Celular"
+            }
+		},
+		{
+			"nome": "Gabriela Lima",
+            "telefone": "61995534231",
+            "data": "21/12/2018 11:46",
+            "email": "gabriela.medeiros2010@hotmail.com",
+			"operadora": {
+                "nome": "Vivo",                
+                "codigo": 15,
+                "categoria": "Celular"
+            }
+		},
+		{
+			"nome": "Karoline Lima",
+            "telefone": "61999887766",
+            "data": "21/12/2018 11:46",
+            "email": "karoline.melodelima@gmail.com",
+			"operadora": {
+                "nome": "Tim",                
+                "codigo": 41,
+                "categoria": "Fixo"
+            }
+		}
+    ],
+
+    "operadoras": [
+        {"nome": "Claro", "codigo": 21, "categoria": "Celular"},
+        {"nome": "Oi", "codigo": 14, "categoria": "Fixo"},
+        {"nome": "Tim", "codigo": 41, "categoria": "Celular"},
+        {"nome": "Vivo", "codigo": 15, "categoria": "Fixo"}
+    ],
+
+    "headers": [
+
+        {"nome": "Nome", "telefone": "Telefone", "email": "E-mail", "operadora": "Operadora", "data": "Data"}
+    ]
+}

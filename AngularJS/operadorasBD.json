@@ -1,0 +1,8 @@
+{
+    "operadoras": [
+        {"nome": "Claro", "codigo": 21, "categoria": "Celular"},
+        {"nome": "Oi", "codigo": 14, "categoria": "Fixo"},
+        {"nome": "Tim", "codigo": 41, "categoria": "Celular"},
+        {"nome": "Vivo", "codigo": 15, "categoria": "Fixo"}
+    ]
+}
